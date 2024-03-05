@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 id="titulo-principal">Ejemplo carousel</h1>
+    <section class="my-5 mx-3">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <img
+                  src="https://img.freepik.com/foto-gratis/adorable-ilustracion-gatitos-jugando-bosque-generative-ai_260559-483.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="https://image.spreadshirtmedia.net/image-server/v1/products/T1459A842PA4459PT28D330288409W8333H10000/views/1,width=378,height=378,appearanceId=842,backgroundColor=F2F2F2/gato-con-bola-de-lana.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="https://img.freepik.com/fotos-premium/cute-dibujos-animados-gatos-kawaii-generar-ai_98402-11787.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <img
+                  src="https://img.freepik.com/foto-gratis/adorable-ilustracion-gatitos-jugando-bosque-generative-ai_260559-483.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="https://image.spreadshirtmedia.net/image-server/v1/products/T1459A842PA4459PT28D330288409W8333H10000/views/1,width=378,height=378,appearanceId=842,backgroundColor=F2F2F2/gato-con-bola-de-lana.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="https://img.freepik.com/fotos-premium/cute-dibujos-animados-gatos-kawaii-generar-ai_98402-11787.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/j
+query.min.js"></script>
+    <script>
+      $("#titulo-principal").click(function () {
+        alert("Los estilos del título han cambiado")
+        $(this).css({
+            "background-color" : "pink",
+            "text-align": "center"
+        })
+        
+      });
+    </script>
+  </body>
+</html>

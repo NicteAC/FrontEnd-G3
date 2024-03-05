@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-image: url(../img/watercolor.png);
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Montez", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+ul li {
+  display: inline-block;
+}
+nav ul {
+  width: fit-content;
+  margin-inline-start: auto;
+  padding: 20px 10px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+}
+main div,
+main div img {
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+section {
+  margin-bottom: 20px;
+}
+main {
+  padding: 20px;
+}
+.contacto {
+  background-color: white;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: deeppink;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100vw;
+}
